@@ -17,12 +17,12 @@
             android:id="@+id/awesome_toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark">
+            android:background="@android:color/black">
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:src="@drawable/launch_gads"/>
+                android:src="@drawable/launch_gads" />
 
         </androidx.appcompat.widget.Toolbar>
 

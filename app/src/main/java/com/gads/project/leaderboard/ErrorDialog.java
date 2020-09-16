@@ -14,7 +14,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
-//import com.danc.leaderboardfinal.R;
+
 
 public class ErrorDialog extends DialogFragment {
 

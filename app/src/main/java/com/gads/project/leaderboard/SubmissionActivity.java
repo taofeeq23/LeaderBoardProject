@@ -9,15 +9,12 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-//import com.danc.leaderboardfinal.AlertDialog.ErrorDialog;
-//import com.danc.leaderboardfinal.AlertDialog.SubmitDialog;
-//import com.danc.leaderboardfinal.AlertDialog.SuccessDialog;
-//import com.danc.leaderboardfinal.Model.SubmitModel;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -29,7 +26,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class SubmissionActivity extends AppCompatActivity implements View.OnClickListener, SubmitDialog.ConfirmDialogListener {
+public class SubmissionActivity extends AppCompatActivity implements OnClickListener, SubmitDialog.ConfirmDialogListener {
 
     private static final String TAG = "SubmissionActivity";
     EditText etFirstName, etLastName, etEmailAddress, etGithubLink;
@@ -51,13 +48,15 @@ public class SubmissionActivity extends AppCompatActivity implements View.OnClic
         toolbar.setNavigationIcon(R.drawable.back_arrow);
 
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+
+
             @Override
             public void onClick(View v) {
                 finish();
             }
-        });
+            });
 
-        etFirstName = findViewById(R.id.firstName);
+            etFirstName = findViewById(R.id.firstName);
         etLastName = findViewById(R.id.lastName);
         etEmailAddress = findViewById(R.id.emailAddress);
         etGithubLink = findViewById(R.id.etGit_link);

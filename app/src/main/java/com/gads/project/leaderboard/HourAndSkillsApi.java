@@ -1,8 +1,5 @@
 package com.gads.project.leaderboard;
 
-//import com.danc.leaderboardfinal.Model.LearningHours;
-//import com.danc.leaderboardfinal.Model.SkillIQ;
-//import com.danc.leaderboardfinal.Model.SubmitModel;
 
 import java.util.List;
 

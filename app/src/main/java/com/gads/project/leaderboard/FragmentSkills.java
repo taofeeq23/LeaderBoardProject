@@ -12,10 +12,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
-//import com.danc.leaderboardfinal.Adapters.SkillsAdapter;
-//import com.danc.leaderboardfinal.HourAndSkillsApi;
-//import com.danc.leaderboardfinal.Model.SkillIQ;
-//import com.danc.leaderboardfinal.R;
 
 import java.util.List;
 

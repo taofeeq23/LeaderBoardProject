@@ -11,7 +11,6 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
-//import com.danc.leaderboardfinal.R;
 
 public class SuccessDialog extends DialogFragment {
     private static final String TAG = "SuccessDialog";

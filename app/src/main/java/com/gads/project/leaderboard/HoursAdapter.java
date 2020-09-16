@@ -12,9 +12,6 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-//import com.danc.leaderboardfinal.HourAndSkillsApi;
-//import com.danc.leaderboardfinal.Model.LearningHours;
-//import com.danc.leaderboardfinal.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

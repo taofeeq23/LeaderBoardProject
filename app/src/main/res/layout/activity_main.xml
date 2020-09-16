@@ -21,7 +21,7 @@
                 app:titleTextColor="@android:color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimaryDark">
+                android:background="#0C0A10">
 
 
                 <Button
@@ -42,7 +42,7 @@
             android:id="@+id/tabLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
+            android:background="#171616"
             app:tabIndicatorColor="@android:color/white"
             app:tabSelectedTextColor="#fff"
             app:tabTextColor="@android:color/darker_gray">
