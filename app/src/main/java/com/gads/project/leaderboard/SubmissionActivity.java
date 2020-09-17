@@ -121,7 +121,8 @@ public class SubmissionActivity extends AppCompatActivity implements OnClickList
             @Override
             public void onResponse(Call<Void> call, Response<Void> response) {
                 if (response.isSuccessful()) {
-                    openErrorDialog();
+                    openSuccessDialog();
+//                    openErrorDialog();
                     return;
                 }
                 Log.d(TAG, "onResponse: Coded Message " + response.code());
